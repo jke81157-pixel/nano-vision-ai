@@ -1,0 +1,11 @@
+[versions]
+agp = "8.2.2"
+kotlin = "1.9.22"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+google-devtools-ksp = { id = "com.google.devtools.ksp", version = "1.9.22-1.0.17" }
+roborazzi = { id = "io.github.takahirom.roborazzi", version = "1.12.0" }
+secrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version = "2.0.1" }
+
