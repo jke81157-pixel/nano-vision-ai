@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">NANO VISION AI</string>
+    <string name="tagline">Studio d\'IA Générative Nouvelle Génération</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_image">Image</string>
+    <string name="nav_video">Vidéo</string>
+    <string name="nav_library">Créations</string>
+    <string name="nav_favorites">Favoris</string>
+    <string name="nav_settings">Paramètres</string>
+
+    <!-- Home -->
+    <string name="hero_title">Créez tout avec l\'IA</string>
+    <string name="hero_subtitle">Générez des images hyperréalistes et des vidéos Veo cinématographiques en quelques secondes.</string>
+    <string name="btn_generate_image">Générer une Image</string>
+    <string name="btn_generate_video">Générer une Vidéo</string>
+    <string name="home_quick_actions">Studio Rapide</string>
+    <string name="home_recent_creations">Créations Récentes</string>
+    <string name="home_quota_title">Quota et État de l\'API</string>
+    <string name="home_quota_subtitle">Moteur Google Generative AI Actif</string>
+    <string name="home_view_all">Tout Voir</string>
+
+    <!-- Image Generator -->
+    <string name="img_gen_title">Studio d\'Images IA</string>
+    <string name="prompt_hint">Décrivez votre imagination en détail...</string>
+    <string name="btn_enhance_prompt">Améliorer le Prompt</string>
+    <string name="model_label">Modèle</string>
+    <string name="aspect_ratio_label">Format</string>
+    <string name="image_count_label">Nombre d\'images</string>
+    <string name="quality_label">Qualité</string>
+    <string name="style_label">Style Artistique</string>
+    <string name="btn_generate_images">Générer les Images</string>
+    <string name="generating_image">Synthèse de la matrice visuelle...</string>
+    <string name="image_ready">Génération Terminée</string>
+
+    <!-- Video Generator -->
+    <string name="vid_gen_title">Studio Vidéo Veo</string>
+    <string name="vid_prompt_hint">Décrivez le mouvement dynamique, l\'éclairage et les plans de caméra...</string>
+    <string name="duration_label">Durée</string>
+    <string name="resolution_label">Résolution</string>
+    <string name="audio_label">Audio IA et Effets Sonores</string>
+    <string name="ref_image_label">Image de Référence (Optionnel)</string>
+    <string name="btn_select_image">Choisir une Image Source</string>
+    <string name="btn_generate_video_action">Rendre la Vidéo Veo</string>
+    <string name="generating_video">Simulation neuronale des séquences en cours...</string>
+    <string name="btn_image_to_video">Animer en Vidéo</string>
+
+    <!-- Library & Details -->
+    <string name="tab_all">Tout</string>
+    <string name="tab_images">Images</string>
+    <string name="tab_videos">Vidéos</string>
+    <string name="tab_favorites">Favoris</string>
+    <string name="search_creations_hint">Rechercher des prompts ou modèles...</string>
+    <string name="no_creations_title">Aucune création</string>
+    <string name="no_creations_subtitle">Votre imagination est la seule limite. Lancez votre première création.</string>
+    <string name="creation_details">Détails de la Création</string>
+    <string name="prompt_title">Prompt</string>
+    <string name="model_used">Modèle</string>
+    <string name="created_at">Date de création</string>
+    <string name="btn_download">Télécharger</string>
+    <string name="btn_share">Partager</string>
+    <string name="btn_favorite">Favori</string>
+    <string name="btn_unfavorite">Retirer des favoris</string>
+    <string name="btn_delete">Supprimer</string>
+    <string name="btn_regenerate">Régénérer</string>
+    <string name="btn_copy_prompt">Copier le Prompt</string>
+
+    <!-- Quota & Billing Notice -->
+    <string name="quota_notice_title">Confirmation de Quota Payant</string>
+    <string name="quota_notice_body">Cette génération peut consommer du quota payant selon votre compte Google et le modèle sélectionné.</string>
+    <string name="btn_proceed">Continuer</string>
+    <string name="btn_cancel">Annuler</string>
+
+    <!-- Errors & States -->
+    <string name="err_missing_api_key">Clé API Gemini non configurée. Veuillez renseigner GEMINI_API_KEY dans AI Studio.</string>
+    <string name="err_quota_exceeded">Quota API atteint ou facturation requise pour ce modèle.</string>
+    <string name="err_model_unavailable">Modèle sélectionné indisponible actuellement. Choisissez-en un autre.</string>
+    <string name="err_network">Échec de la connexion réseau. Vérifiez votre connexion Internet.</string>
+    <string name="err_generic">Erreur de génération. Veuillez réessayer.</string>
+    <string name="prompt_enhanced_success">Prompt optimisé avec des mots-clés cinématographiques !</string>
+    <string name="saved_to_gallery">Enregistré dans la galerie !</string>
+    <string name="copied_to_clipboard">Copié dans le presse-papier !</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Paramètres &amp; Préférences</string>
+    <string name="setting_theme">Thème</string>
+    <string name="setting_theme_dark">Matrice Sombre</string>
+    <string name="setting_theme_light">Lumière Claire</string>
+    <string name="setting_theme_system">Système Adaptatif</string>
+    <string name="setting_language">Langue</string>
+    <string name="setting_default_img_model">Modèle d\'image par défaut</string>
+    <string name="setting_default_vid_model">Modèle vidéo par défaut</string>
+    <string name="setting_default_aspect">Format par défaut</string>
+    <string name="setting_notifications">Notifications de génération</string>
+    <string name="setting_privacy">Politique de confidentialité</string>
+    <string name="setting_clear_history">Effacer toutes les créations</string>
+    <string name="clear_history_confirm">Êtes-vous sûr de vouloir supprimer tous les éléments créés ? Cette action est irréversible.</string>
+    <string name="btn_clear">Effacer</string>
+
+    <!-- Ads -->
+    <string name="ad_label">Publicité</string>
+    <string name="ad_sponsor">Partenaire Infrastructure IA Sponsorisé</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "NANO VISION AI",
+  "description": "Professional futuristic AI studio for generating images and videos with Gemini and Veo models.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
