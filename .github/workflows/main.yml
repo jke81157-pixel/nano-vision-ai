@@ -11,10 +11,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Unzip project
+      - name: Unzip project & move files
         run: |
-          unzip nano-vision-ai\ \(3\).zip -d .
-          ls -la
+          unzip -o "nano-vision-ai (3).zip"
+          if [ -d "nano-vision-ai" ]; then cp -r nano-vision-ai/* . ; fi
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
@@ -22,14 +22,17 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Generate Debug Keystore
+        run: |
+          keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+
       - name: Build APK with Gradle
         run: |
           chmod +x gradlew || true
-          ./gradlew assembleDebug || gradle assembleDebug
+          ./gradlew assembleDebug --no-daemon
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: app-debug
           path: app/build/outputs/apk/debug/app-debug.apk
-          
